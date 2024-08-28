@@ -74,7 +74,7 @@ jobs:
           git checkout -b $BRANCH
 
           echo "Make a file"
-          touch index.md
+          echo "# Header" > index.md
 
           echo "Make a commit"
           git config user.name github-actions
